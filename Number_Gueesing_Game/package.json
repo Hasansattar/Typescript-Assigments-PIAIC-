@@ -1,0 +1,45 @@
+{
+  "name": "@hasansattar/guess_number_game",
+  "version": "1.0.0",
+  "description": "## Clone the project in your machine",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node lib/index.js",
+    "debug": "node  lib/index.js",
+    "build": "tsc",
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "bin": {
+    "guess-number": "lib/index.js"
+  },
+  "author": "hasan sattar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/gradient-string": "^1.1.2",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hasansattar/",
+  "bugs": {
+    "url": "https://github.com/Hasansattar/"
+  },
+  "homepage": "https://github.com/Hasansattar/",
+  "directories": {
+    "lib": "lib"
+  }
+}
